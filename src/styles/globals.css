@@ -167,7 +167,7 @@
   }
 
   .card-premium:hover {
-    @apply border-white/8 bg-white/[0.05];
+    @apply border-white/[0.08] bg-white/[0.05];
     box-shadow: 0 4px 16px rgba(0,0,0,0.5), inset 0 1px 0 rgba(255,255,255,0.06);
   }
 
@@ -390,7 +390,7 @@
 .editor-content code { @apply px-1.5 py-0.5 rounded bg-white/5 text-blue-300 font-mono text-sm; }
 .editor-content pre { @apply p-4 rounded-lg bg-white/5 overflow-x-auto mb-4; }
 .editor-content pre code { @apply p-0 bg-transparent; }
-.editor-content hr { @apply border-white/8 my-8; }
+.editor-content hr { @apply border-white/[0.08] my-8; }
 .editor-content a { @apply text-blue-400 underline underline-offset-2 hover:text-blue-300 transition-colors; }
 
 /* PWA standalone mode adjustments */
